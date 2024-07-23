@@ -4,7 +4,10 @@ Quick Question - LLM in the terminal
 <img src="https://github.com/user-attachments/assets/60dce499-561a-4ad0-b98a-67adaaf48e3a" width="300"/>
 
 
-# setup
+# Use
+```qq how do I list files in terminal by size?```
+
+# Setup
 
 💾 install [dotenv](https://github.com/motdotla/dotenv) on your system
 
@@ -17,4 +20,7 @@ git clone https://github.com/ymode/qq.git
 cd qq
 chmod +x qq
 sudo mv qq /usr/local/bin/
+
+
+ 
 
