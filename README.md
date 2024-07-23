@@ -7,12 +7,12 @@ Quick Question - LLM in the terminal
 # Use
 ```qq how do I list files in terminal by size?```
 
-<img width="983" alt="image" src="https://github.com/user-attachments/assets/ffe3490b-8429-4312-9771-1efeeb566534">
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/1af2beb7-bb82-4fbe-a47f-8f11a32998af">
+
+
 
 
 # Setup
-
-💾 Manual Setup: install [dotenv](https://github.com/motdotla/dotenv) and [openai](https://github.com/openai/openai-python) on your system
 
 🔑 Ensure your [OpenAI](https://openai.com/api/) API Key is exported in the following format: ```export OPENAI_API_KEY=your openai key```
 
@@ -25,6 +25,10 @@ pip install -r requirements.txt
 chmod +x qq
 sudo mv qq /usr/local/bin/
 ```
+
+If you prefer manually setting up
+
+💾 Manual Setup: install [dotenv](https://github.com/motdotla/dotenv) and [openai](https://github.com/openai/openai-python) on your system
 
 
 
