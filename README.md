@@ -5,6 +5,12 @@ Quick Question - LLM in the terminal
 
 
 # setup
+API Key
+
+Ensure your OpenAI API Key is exported as a local environment variable in your .bashrc/.zshrc in the following format
+
+```export OPENAI_API_KEY=your OpenAI API key```
+
 Clone it
 ```git clone https://github.com/ymode/qq.git```
 
