@@ -5,21 +5,16 @@ Quick Question - LLM in the terminal
 
 
 # setup
-API Key
 
-Ensure your OpenAI API Key is exported as a local environment variable in your .bashrc/.zshrc in the following format
+💾 install [dotenv](https://github.com/motdotla/dotenv) on your system
 
-```export OPENAI_API_KEY=your OpenAI API key```
+🔑 Ensure your[OpenAI](https://openai.com/api/) API Key is exported as a local environment variable in your .bashrc/.zshrc in the following format
 
-Clone it
-```git clone https://github.com/ymode/qq.git```
+💻 In your Term
 
-Make it executable
-```chmod +x qq```
-
-Move it to bin
-```sudo mv qq /usr/local/bin/```
-
-# Use
-```qq``` your question
+```export OPENAI_API_KEY=your OpenAI API key
+git clone https://github.com/ymode/qq.git
+cd qq
+chmod +x qq
+sudo mv qq /usr/local/bin/
 
