@@ -15,7 +15,7 @@ Quick Question - LLM in the terminal
 
 💾 Manual Setup: install [dotenv](https://github.com/motdotla/dotenv) and [openai](https://github.com/openai/openai-python) on your system
 
-🔑 Ensure your [OpenAI](https://openai.com/api/) API Key is exported as a local environment variable in your .bashrc/.zshrc in the following format
+🔑 Ensure your [OpenAI](https://openai.com/api/) API Key is exported in your .bashrc/.zshrc in the following format: ```export OPENAI_API_KEY=your openai key```
 
 💻 Automatic Setup: In your Term, paste the following
 
