@@ -24,6 +24,6 @@ def get_ai_response(prompt):
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         query = " ".join(sys.argv[1:])
-        print(f"AI: {get_ai_response(query)}")
+        print(f"\n qq: {get_ai_response(query)}")
     else:
         print("Usage: qq <your question>")
