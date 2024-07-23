@@ -27,8 +27,9 @@ def get_ai_response(prompt):
     try:
         messages = [
             {"role": "system", "content": (
-                "You are a Linux-based assistant, expert at terminal, bash, and programming. "
-                "Your answers should be factual and concise while adding the required information to the user. "
+                "You are a Linux-based assistant, expert at terminal, bash, and programming."
+                "Your answers should be factual and concise." 
+                "while adding the required information to the user."
                 "Use markdown formatting in your responses to enhance readability."
             )},
             {"role": "user", "content": f"Query: {prompt}\nResponse:"}
