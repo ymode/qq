@@ -42,7 +42,7 @@ def get_ai_response(prompt):
         return ai_response.choices[0].message.content
     except openai.OpenAIError as e:
         return f"An error occurred with the OpenAI API: {str(e)}"
-    except Exception as e:
+    except Exception as e: # pylint: disable=broad-exception-caught
         # Catching general exception as a fallback for unexpected errors
         # This ensures the program doesn't crash on unforeseen issues
         return f"An unexpected error occurred: {str(e)}"
@@ -61,4 +61,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
