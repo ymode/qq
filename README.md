@@ -10,7 +10,6 @@ Quick Question - LLM in the terminal
 <img width="983" alt="image" src="https://github.com/user-attachments/assets/ffe3490b-8429-4312-9771-1efeeb566534">
 
 
-
 # Setup
 
 💾 Manual Setup: install [dotenv](https://github.com/motdotla/dotenv) and [openai](https://github.com/openai/openai-python) on your system
@@ -25,3 +24,8 @@ cd qq
 pip install -r requirements.txt
 chmod +x qq
 sudo mv qq /usr/local/bin/
+```
+
+
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ymode)
