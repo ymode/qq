@@ -1,4 +1,9 @@
 # qq
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/ymode/qq/pylint.yml)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ymode/qq) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/ymode/qq) ![GitHub watchers](https://img.shields.io/github/watchers/ymode/qq)
+
+
+
 Quick Question - LLM in the terminal.
 
 
