@@ -11,7 +11,7 @@ Quick Question - LLM in the terminal
 
 💾 install [dotenv](https://github.com/motdotla/dotenv) on your system
 
-🔑 Ensure your[OpenAI](https://openai.com/api/) API Key is exported as a local environment variable in your .bashrc/.zshrc in the following format
+🔑 Ensure your [OpenAI](https://openai.com/api/) API Key is exported as a local environment variable in your .bashrc/.zshrc in the following format
 
 💻 In your Term
 
