@@ -1,8 +1,22 @@
 # qq
-Quick Question - LLM in the terminal
+Quick Question - LLM in the terminal.
 
-<img src="https://github.com/user-attachments/assets/60dce499-561a-4ad0-b98a-67adaaf48e3a" width="300"/>
 
+
+
+<img src="https://github.com/user-attachments/assets/60dce499-561a-4ad0-b98a-67adaaf48e3a" width="150"/>
+
+___
+qq is a markdown rich terminal based LLM interface - so you never have to leave the terminal!
+
+
+🎨 Markdown support in your terminal
+
+🧠 gpt-4o-mini (default LLM)
+
+⌨️ Prompt engineering layer to ensure terminal/linux based responses
+
+💻 Stay in terminal
 
 # Use
 ```qq how do I list files in terminal by size?```
@@ -31,5 +45,15 @@ If you prefer manually setting up
 💾 Manual Setup: install [dotenv](https://github.com/motdotla/dotenv) and [openai](https://github.com/openai/openai-python) on your system
 
 
+# Support
+The best way to support this project is to contribute! But if you would like to buy me a coffee, there is a link below.
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ymode)
+
+# Credits
+
+[OpenAI gpt-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/)
+
+[dotenv](https://github.com/motdotla/dotenv)
+
+[rich terminal markdown](https://github.com/Textualize/rich)
