@@ -33,6 +33,8 @@ qq is a markdown rich terminal based LLM interface - so you never have to leave 
 
 # Setup
 
+⏳ Coming Soon - 🐳 A Docker Version! 
+
 🔑 Ensure your [OpenAI](https://openai.com/api/) API Key is exported in the following format: ```export OPENAI_API_KEY=your openai key```
 
 💻 Automatic Setup: In your Term, paste the following
