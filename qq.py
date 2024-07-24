@@ -52,22 +52,19 @@ def main():
     """Main function to handle command-line interface."""
     if len(sys.argv) > 1:
         user_query = " ".join(sys.argv[1:])
-        
         # Create and start the spinner
         spinner = Halo(text='Thinking...', spinner='dots')
         spinner.start()
 
         try:
             response = get_ai_response(user_query)
-            
             # Stop the spinner before printing the response
             spinner.stop()
-
             console = Console()
             md = Markdown(response)
             console.print("\nqq:", style="bold")
             console.print(md)
-        except Exception as e:
+        except Exception as e: # pylint: disable=broad-exception-caught
             spinner.fail(f"An error occurred: {str(e)}")
     else:
         print("Usage: qq <your question>")
