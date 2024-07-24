@@ -10,6 +10,7 @@ import openai
 from dotenv import load_dotenv
 from rich.console import Console
 from rich.markdown import Markdown
+from halo import Halo
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -51,11 +52,23 @@ def main():
     """Main function to handle command-line interface."""
     if len(sys.argv) > 1:
         user_query = " ".join(sys.argv[1:])
-        response = get_ai_response(user_query)
-        console = Console()
-        md = Markdown(response)
-        console.print("\nqq:", style="bold")
-        console.print(md)
+        
+        # Create and start the spinner
+        spinner = Halo(text='Thinking...', spinner='dots')
+        spinner.start()
+
+        try:
+            response = get_ai_response(user_query)
+            
+            # Stop the spinner before printing the response
+            spinner.stop()
+
+            console = Console()
+            md = Markdown(response)
+            console.print("\nqq:", style="bold")
+            console.print(md)
+        except Exception as e:
+            spinner.fail(f"An error occurred: {str(e)}")
     else:
         print("Usage: qq <your question>")
 
