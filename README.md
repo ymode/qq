@@ -6,9 +6,6 @@
 
 Quick Question - LLM in the terminal.
 
-
-
-
 <img src="https://github.com/user-attachments/assets/60dce499-561a-4ad0-b98a-67adaaf48e3a" width="150"/>
 
 ___
@@ -26,7 +23,7 @@ qq is a markdown rich terminal based LLM interface - so you never have to leave 
 # Use
 ```qq how do I list files in terminal by size?```
 
-<img width="983" alt="image" src="https://github.com/user-attachments/assets/1af2beb7-bb82-4fbe-a47f-8f11a32998af">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/11c9a1b5-0aad-4de7-97ac-d6c635c3645a">
 
 
 
