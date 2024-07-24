@@ -45,10 +45,6 @@ chmod +x qq
 sudo mv qq /usr/local/bin/
 ```
 
-If you prefer manually setting up
-
-💾 Manual Setup: install [dotenv](https://github.com/motdotla/dotenv) and [openai](https://github.com/openai/openai-python) on your system
-
 
 # Support
 The best way to support this project is to contribute! But if you would like to buy me a coffee, there is a link below.
@@ -62,3 +58,5 @@ The best way to support this project is to contribute! But if you would like to 
 [dotenv](https://github.com/motdotla/dotenv)
 
 [rich terminal markdown](https://github.com/Textualize/rich)
+
+[halo - beautiful spinners](https://github.com/manrajgrover/halo)
