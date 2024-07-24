@@ -21,7 +21,7 @@ qq is a markdown rich terminal based LLM interface - so you never have to leave 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/1d6b7cd4-f927-4240-8a23-54725989a6d7">
  
    
-   _looks and words great in [warp](https://www.warp.dev)_
+   _looks and works great in [warp](https://www.warp.dev)_
    
  </div>
 
