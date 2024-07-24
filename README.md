@@ -4,13 +4,29 @@
 
 
 
-Quick Question - LLM in the terminal.
+```qq``` Quick Question - LLM in the terminal.
 
 <img src="https://github.com/user-attachments/assets/60dce499-561a-4ad0-b98a-67adaaf48e3a" width="150"/>
 
-___
+# About
+
+<div align="center">
+  
+
 qq is a markdown rich terminal based LLM interface - so you never have to leave the terminal!
 
+<br>
+
+  
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/1d6b7cd4-f927-4240-8a23-54725989a6d7">
+ 
+   
+   _looks and words great in [warp](https://www.warp.dev)_
+   
+ </div>
+
+
+# Features
 
 🎨 Markdown support in your terminal
 
