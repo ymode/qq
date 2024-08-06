@@ -13,7 +13,7 @@
 <div align="center">
   
 
-qq is a markdown rich terminal based LLM interface - so you never have to leave the terminal!
+qq is a markdown rich terminal based LLM interface - so you never have to leave the terminal! qq supports [gpt-4o-mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) and [llama-3.1-8b](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct?text=can+llama+accept+openai+api+syntax)
 
 <br>
 
@@ -31,6 +31,8 @@ qq is a markdown rich terminal based LLM interface - so you never have to leave 
 🎨 Markdown support in your terminal
 
 🧠 gpt-4o-mini (default LLM)
+
+🦙 Now with llama-3 support! (optional)
 
 ⌨️ Prompt engineering layer to ensure terminal/linux based responses
 
@@ -50,7 +52,7 @@ qq is a markdown rich terminal based LLM interface - so you never have to leave 
 
 🔑 Ensure your [OpenAI](https://openai.com/api/) API Key is exported in the following format: ```export OPENAI_API_KEY=your openai key```
 
-💻 Automatic Setup: In your Term, paste the following
+💻 Automatic Setup: In your Term, paste the following (target qql.py instead of qq.py if you want to use llama-3 instead of gpt-4o-mini)
 
 ```export OPENAI_API_KEY=your OpenAI API key
 git clone https://github.com/ymode/qq.git
