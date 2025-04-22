@@ -39,9 +39,13 @@ qq is a markdown rich terminal based LLM interface - so you never have to leave 
 💻 Stay in terminal
 
 # Use
-```qq how do I list files in terminal by size?```
-
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/11c9a1b5-0aad-4de7-97ac-d6c635c3645a">
+```bash
+qq how do I list files in terminal by size?
+# or with llama
+qq --model llama how do I exit vim?
+# disable spinner (good for scripts)
+qq --no-spinner whoami
+```
 
 
 

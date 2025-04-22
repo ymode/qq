@@ -2,3 +2,4 @@ python-dotenv
 openai
 rich
 halo
+huggingface_hub
